@@ -1,0 +1,17 @@
+### 1. Đăng ký tài khoản
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+
+{
+  "username": "sinhvien",
+  "password": "123"
+}
+
+### 2. Đăng nhập để lấy Token
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+  "username": "sinhvien",
+  "password": "123"
+}
